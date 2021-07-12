@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"> 
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+        
+           <h1 class="bio" id="bio" >Bio Data</h1>
+           <div class="row">
+              <div class="col-25">
+                  <form action="#" autocomplete="off" onsubmit="return validation()">
+                  <table class="table"  >                         
+                    <tr> <td>First name:</td> <td  ><input type="text" id="fname">
+                        <br><span id="user"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Middle Name:</td>
+                        <td><input type="text" class="input" id="mname">
+                        <br><span id="mnamee"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" class="input" id="lname" >
+                            <br><span id="lnamee"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth:</td>
+                        <td><input type="date" class="input" id="date" >
+                            <br><span id="datee"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="text" class="input" id="age" >
+                            <br><span id="agee"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Maiden Name</td>
+                        <td><input type="text" class="input" id="moname" ></td>
+                    </tr>
+                    <tr>
+                        <td>Job title:</td>
+                        <td><input type="text" class="input" id="job" >
+                            <br><span id="jobb"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Education Qualification:</td>
+                        <td>
+                        <select id="sel" >
+                            <option value="Cource">Select Qualification</option>
+                            <option value="Bba">Bba</option>
+                            <option value="Bca">Bca</option>
+                            <option value="Mba">Mba</option>
+                            <option value="Mca">Mca</option>
+                        </select>
+                        <br><span id="sell"></span>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Work Experience:</td>
+                        <td><textarea placeholder="Work Experience" id="work" > </textarea>
+                            <br><span id="workk"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Skill/Interest:</td>
+                        <td><textarea placeholder="Input your skill and intest" id="skill" ></textarea>
+                            <br><span id="skilll"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Referee:</td>
+                        <td><textarea placeholder="Input your Referees" id="ref" ></textarea>
+                            <br><span id="reff"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Phon:</td>
+                        <td><input type="number" class="input" id="phon" required >
+                            <br><span id="phonn"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" class="input" id="email" required >
+                            <br><span id="emaill"></span></td>
+                    </tr>
+                     
+                  </table>
+                  <div class="btn">
+                    <input class="btn-1" type="submit" value="Submit" id="btn" onclick="validation()">
+                </div>
+                </form>
+                <script type="text/javascript">
+                function validation(){
+                    var fname = document.getElementById('fname').value
+                    var fname = document.getElementById('mname').value
+                    var lname = document.getElementById('lname').value
+                    var date = document.getElementById('date').value
+                    var age = document.getElementById('age').value
+                    var job = document.getElementById('sel').value
+                    var job = document.getElementById('work').value
+                    var job = document.getElementById('skill').value
+                    var job = document.getElementById('ref').value
+                    var job = document.getElementById('phon').value
+                    var job = document.getElementById('email').value
+                    var job = document.getElementById('job').value
+                     if(name=="")
+                     {
+                         document.getElementById('user').innerHTML="Enter first name"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('lnamee').innerHTML="Enter last Name"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('mnamee').innerHTML="Enter middle Name"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('datee').innerHTML="**plese enter DOB**"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('agee').innerHTML="*plese enter age*"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('sell').innerHTML="enter job detail"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('workk').innerHTML="enter work knowlage"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('skilll').innerHTML="enter job skill detail"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('reff').innerHTML="enter referee"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('phonn').innerHTML="*enter phon number*"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('emaill').innerHTML="*plese enter email id*"
+                     }
+                     if(name=="")
+                     {
+                         document.getElementById('jobb').innerHTML="*plese enter job detail*"
+                     }
+                    
+                    };                  
+                
+                    </script>
+       
+           
+              </div>
+    </div>
+           
+    </div>
+
+
+   
+   
+</body>
+</html>
