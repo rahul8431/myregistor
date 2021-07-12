@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.Form{
+    margin-top: 0%;
+    display: inline-block;
+    
+
+
+}
+.input-box{
+margin-bottom: 3%;
+text-align: center;
+text-transform: initial;
+text-justify: inherit;
+float:inline-end;
+
+
+}
+.text-center{
+margin-top: 0%;
+text-align: center;
+padding-left: 25%;
+padding-right: 25%;
+
+}
+.container{
+    background-color: rgb(118, 118, 204);
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    height: 95vh;
+    float: center;
+    
+
+}
+.form{
+margin-top: 0%;
+background-color: blue;
+margin-bottom: 8%;
+
+
+}
+.bio{
+    background: rgb(33, 10, 238);
+       color: ivory;
+padding-top: 3vh;
+text-align: center;
+height: 12vh;
+margin-top: 5%;
+}
+.detail{
+margin-block-start: 0ch;
+}
+.btn{
+    background-color:   rgb(33, 10, 238);
+    color: navy;
+    text-align: center;
+    margin-top: 1px;
+    height: 8vh;
+   
+
+}
+.btn-1{
+    color:black;
+    background-color: brown;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 10vh;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: vh;
+
+}
+
+
+.detail{
+    float:initial;
+}
+
+.input{
+    margin-top: 5%;
+}
+.td{
+    margin-left: inherit;
+}
+.table{
+    padding-left: 10vh;
+    height: 80vh;
+    
+
+}

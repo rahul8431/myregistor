@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"> 
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+        
+           <h1 class="bio" id="bio" >Bio Data</h1>
+           <div class="row">
+              <div class="col-25">
+                  <form action="#" autocomplete="off" onsubmit="return validation()">
+                  <table class="table"  >                         
+                    <tr> <td>First name:</td> <td  ><input type="text" id="fname">
+                        <span id="user"></span></td>
+                      </tr>
+                      <tr>
+                        <td>Middle Name:</td>
+                        <td><input type="text" class="input" id="mname"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" class="input" id="lname" ></td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth:</td>
+                        <td><input type="date" class="input" id="date" ></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="text" class="input" id="age" ></td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Maiden Name</td>
+                        <td><input type="text" class="input" id="moname" ></td>
+                    </tr>
+                    <tr>
+                        <td>Job title:</td>
+                        <td><input type="text" class="input" id="job" ></td>
+                    </tr>
+                    <tr>
+                        <td>Education Qualification:</td>
+                        <td>
+                        <select id="sel" >
+                            <option value="Cource">Select Qualification</option>
+                            <option value="Bba">Bba</option>
+                            <option value="Bca">Bca</option>
+                            <option value="Mba">Mba</option>
+                            <option value="Mca">Mca</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Work Experience:</td>
+                        <td><textarea placeholder="Work Experience" > </textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Skill/Interest:</td>
+                        <td><textarea placeholder="Input your skill and intest" id="skill" ></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Referee:</td>
+                        <td><textarea placeholder="Input your Referees" id="ref" ></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Phon:</td>
+                        <td><input type="number" class="input" id="phon" required ></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" class="input" id="email" required ></td>
+                    </tr>
+                     
+                  </table>
+                  <div class="btn">
+                    <input class="btn-1" type="submit" value="Submit" id="btn" onclick="validation()">
+                </div>
+                </form>
+                <script type="text/javascript">
+                function validation(){
+                    var a=fname;
+                    var b=mname;
+                    var c=a+b
+                    
+                    console.getElementById('c');
+                }
+
+                </script>
+       
+           
+              </div>
+    </div>
+           
+    </div>
+
+
+   
+   
+</body>
+</html>
