@@ -49,7 +49,7 @@ margin-bottom: 8%;
 padding-top: 3vh;
 text-align: center;
 height: 12vh;
-margin-top: 5%;
+margin-top: 0%;
 }
 .detail{
 margin-block-start: 0ch;
@@ -95,4 +95,11 @@ margin-block-start: 0ch;
 }
 span{
     color: red;
+}
+body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
 }
