@@ -94,7 +94,7 @@ margin-block-start: 0ch;
     margin-top: 20px;
 }
 span{
-    color: red;
+    color: rgb(128, 0, 0);
 }
 body{
     display: flex;
