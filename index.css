@@ -103,3 +103,7 @@ body{
   min-height: 100vh;
   margin: 0;
 }
+.carousel-inner{
+    width: 40vh;
+    margin: 0;
+    }
